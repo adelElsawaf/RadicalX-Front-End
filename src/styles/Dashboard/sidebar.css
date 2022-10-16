@@ -1,10 +1,12 @@
 .sidebar-container {
   background-color: var(--color-white);
   box-shadow: 0px 12px 34px rgba(0, 0, 0, 0.04);
-  border-radius: 1.6em;
+  border-radius: 24px;
   margin: 0.7em;
   display: flex;
   flex-direction: column;
+  width: 20%;
+  
 }
 
 .sidebar-logo {

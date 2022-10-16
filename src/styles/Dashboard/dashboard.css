@@ -1,15 +1,21 @@
-.dashboard-container {
-  display: grid;
-  grid-template-columns: 20% 80%;
-  background-color: var(--color-pale-purple-bg);
-  height: 100vh;
+.content {
+    background: #F1F4F8;
+    display: flex;
+}
+
+.cards {
+    padding-left: 100px;
+    width: 85%;
+    text-align: left;
 }
 
 .page-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 3em 1.8em;
-  color: var(--color-dark-black);
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 3em 1.8em;
+    color: var(--color-dark-black);
+    height: 5%;
 }

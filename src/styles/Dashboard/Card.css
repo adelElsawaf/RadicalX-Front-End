@@ -1,0 +1,38 @@
+.cards-content{
+    display: flex;
+    flex-direction: row;
+}
+.each{
+    background: #fff;
+    border : 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px #d2d2d2;
+    margin-right: 20px;
+    width: 365px;
+    height: 246px;
+    padding: 20px;
+gap: 20px;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 2px #d2d2d2;
+}
+
+.card-title{
+    padding: 15px 20px;
+}
+
+.card-body{
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.card-roles{
+    padding: 5px 15px 10px;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
